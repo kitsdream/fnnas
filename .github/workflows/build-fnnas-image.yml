@@ -12,13 +12,12 @@ on:
       fnnas_base_version:
         description: "Select fnnas base image version"
         required: false
-        default: "amlogic_488"
+        default: "amlogic_580"
         type: choice
         options:
-          - allwinner_489
-          - amlogic_488
-          - rockchip_485
-          - rockchip_484
+          - allwinner_619
+          - amlogic_580
+          - rockchip_641
       fnnas_board:
         description: "Select fnnas device board"
         required: false
@@ -38,6 +37,8 @@ on:
           - alark35-3500
           - anas3035
           - aio-3399b
+          - aio-3399c
+          - aio-3399c-ai
           - bdkj-bd-one
           - bdy-g18-pro
           - beikeyun
@@ -53,6 +54,7 @@ on:
           - eaidk-610
           - emb3531
           - fine3399
+          - firefly-jd4
           - firefly-rk3399
           - fmx1-pro
           - fmx1-pro-b
@@ -73,6 +75,7 @@ on:
           - lckfb-tspi
           - leez
           - lx-r3s
+          - lz-d3568
           - lz-k3568
           - mrkaio-m68s
           - nanopc-t4
@@ -92,6 +95,7 @@ on:
           - r68s
           - renegade-rk3328
           - rk3318-box
+          - rock-5-itx
           - rock5b
           - rock5c
           - ruisen-box
